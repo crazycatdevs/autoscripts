@@ -1,4 +1,4 @@
-# userinfo.tcl v1.08 for Eggdrop 1.4.3 and higher
+# userinfo.tcl v1.09 for Eggdrop 1.4.3 and higher
 #           Scott G. Taylor -- ButchBub!staylor@mrynet.com
 #
 # v1.00      ButchBub     14 July      1997 -Original release.  Based on
@@ -21,6 +21,9 @@
 #                                            which didn't have server module loaded
 #                                           -added new fields PHONE and ICQ
 # v1.08      mortmann     16 July      2020 -added new fields YOUTUBE and TWITCH
+#
+# v1.09      CrazyCat     21 January   2025 -removed field ICQ (EoL 2024-06-26)
+#                                           -added new field SEX
 #
 # TO USE:  o    Set the desired userinfo field keywords to the
 #               `userinfo-fields' line below where indicated.
@@ -62,14 +65,14 @@
 #   DOB     Birthday (Date Of Birth)
 #   EMAIL   Email address
 #   PHONE   Phone number
-#   ICQ     ICQ number
+#   SEX     Sex
 #   YOUTUBE YouTube channel
 #   TWITCH  Twitch channel
 
 
 # This script's identification
 
-set userinfover "Userinfo TCL v1.08"
+set userinfover "Userinfo TCL v1.09"
 
 # This script is NOT for pre-1.4.3 versions.
 
